@@ -50,7 +50,7 @@ if page == "Real-time Prediction":
             gender = int(st.radio("Gender", ("1", "0")))
             
         with col2:
-            job = st.selectbox("Occupation", ["Engineer", "Doctor", "Teacher", "Executive", "Analyst"])
+            job = st.selectbox("Occupation", ["Engineer", "Doctor", "Teacher", "Executive", "Analyst","Others"])
             lat = st.number_input("Customer Latitude", value=40.71)
             long = st.number_input("Customer Longitude", value=-74.01)
             merch_lat = st.number_input("Merchant Latitude", value=40.72)
@@ -165,4 +165,5 @@ elif page == "Batch Processing":
 
 # Footer
 st.markdown("---")
+
 st.markdown("Fraud Detection System Developed by Similoluwa Folorunso")
