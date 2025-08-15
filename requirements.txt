@@ -6,3 +6,4 @@ matplotlib
 seaborn
 pydeck
 scikit-learn
+category_encoders
