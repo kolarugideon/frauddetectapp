@@ -30,7 +30,7 @@ pipeline = load_pipeline()
 # App title and description
 st.title("🕵️ Transaction Fraud Detection System")
 st.markdown("""
-This application developed by Similoluwa Folorunso detects potentially fraudulent transactions using machine learning.
+This application developed by Kolaru Gideon Mosimiloluwa detects potentially fraudulent transactions using machine learning.
 """)
 
 # Navigation
@@ -167,4 +167,5 @@ elif page == "Batch Processing":
 st.markdown("---")
 
 st.markdown("Fraud Detection System Developed by Kolaru Gideon Mosimiloluwa")
+
 
