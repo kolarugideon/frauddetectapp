@@ -166,4 +166,5 @@ elif page == "Batch Processing":
 # Footer
 st.markdown("---")
 
-st.markdown("Fraud Detection System Developed by Similoluwa Folorunso")
+st.markdown("Fraud Detection System Developed by Kolaru Gideon Mosimiloluwa")
+
